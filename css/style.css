@@ -1,0 +1,722 @@
+body, h2, h4, h3{
+    margin: 0;
+}
+*, 
+*:after, 
+*:before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 135%;
+    letter-spacing: 0.12em;
+    color:rgba(255, 255, 255, 0.918);
+}
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #090909;
+}
+.headerTop{
+    width: 100%;
+    max-width: 1180px;
+    height: 30px;
+    margin: 0 auto;
+}
+.headerTopNav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.headerTopNav div{
+    display: flex;
+    
+   
+}
+.ita, .eng{
+    display: flex;
+    height: 30px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.headerTopNav div a{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.engA, .enrollA{
+    color: #242424;
+    letter-spacing: 1.6px;
+}
+.ita{ 
+    background-color: #242424; 
+}
+.itaA{
+     color: #FFFFFF;
+     letter-spacing: 1.6px;
+}
+
+.enroll{
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.headerBottom{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    
+}
+.headerBottomInner{
+    margin: 0 auto;
+    max-width: 1180px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    
+}
+.nav{
+    margin-left: 35px;
+    font-size: Manrope;
+    color: #242424;
+    letter-spacing: 0.8px;
+}
+.logo{
+    padding-top: 30px;
+}
+.inner{
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    
+
+}
+.innerText{
+    width: 422px;
+    position: absolute;
+    bottom: 120px;
+    left: 170px;
+}
+h3{
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.12em;
+    color:rgba(255, 255, 255, 0.815);
+}
+h2{
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 51.3px;
+    letter-spacing: 0.12em;
+    color:rgba(255, 255, 255, 0.918);
+}
+p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.12em;
+    font-weight: 300;
+    line-height: 135%;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.918);
+
+}
+.known{
+    width:230px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.918);
+    padding: 10px;
+    text-align: center;
+}
+.knownA{
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0.12em;
+    color: rgba(255, 255, 255, 0.918);
+}
+.control{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+
+}
+
+.volume{
+    margin-left: 15px;
+}
+.ellipse{
+    position: absolute;
+    bottom: 0px;
+    left: -2px;
+}
+.controlElips{
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+}
+.slider{
+    position: absolute;
+    bottom: 40px;
+    right: 48%;
+}
+.slaiderItem{
+    margin-right: 8px;
+}
+
+.CollectionsDiv{
+    width: 100%;
+    height: 213px;
+    text-align: center;
+    background-color: #090909;
+}
+.Collections{
+    padding-top: 140px;
+}
+.Collectionsiner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    background-color: #242424;
+}
+.Collectionsiner div h4{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.918);
+   
+}
+.Collectionsiner div{
+    display: flex;                 
+    width: 232px;
+    border: 1px solid #5f5f5f27;
+}
+.Collectionsinerright, .Collectionsinerleft{
+    width: 140px;
+
+}
+.Galaxy, .italia, .ootail{
+    align-items: flex-start; 
+}
+.italia, .ootail{
+    justify-content: flex-start;
+}
+.italia h4{
+    color:#242424 !important;
+}
+.allCollections{
+    width: 100%;
+    height: 150px;
+    background-color: #090909;
+}
+.allCollections{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.allCollectionsBottom{
+    width: 136px;
+    height: 22px;
+    margin-top: 30px;
+}
+
+.allCollections img{
+    margin-top: 38px;
+    margin-right: 130px;
+}
+.designer{
+    width: 100%;
+    height: 540px;
+    background-color: #181818;
+    position: relative;
+}
+.designerImage{
+    width: 480px;
+    height: 600px;
+    position: absolute;
+    left: 130px;
+    top: 90px;
+}
+.designerHeader{
+    position: absolute;
+    width: 419px;
+    height: 86px;
+    left: 730px;
+    top: 120px;
+}
+.designerArrowLeft{
+    position: absolute;
+    left: 750px;
+    top: 246px;
+    opacity: 0.2;
+   
+}
+.designerArrowRight{
+    position: absolute;
+    opacity: 0.2;
+    right: 160px;
+    top: 312px;
+    transform: rotate(-180deg);
+}
+.designerInner{
+    position: absolute;
+    width: 450px;
+    height: 72px;
+    top: 279px;
+    right: 190px;
+}
+.designerInner p{
+    text-align: center;
+}
+.victoria{
+    position: absolute;
+    right: 132px;
+    bottom: 92px;
+}
+.designerBottom{
+    position: absolute;
+    width: 281px;
+    height: 60px;
+    bottom: -120px;
+    right: 429px;
+    border: 1px solid #ffffffe7;
+    text-align: center;
+    padding-top: 18px;
+    
+}
+
+
+.newCollection{
+    margin: auto;
+    margin-top: 280px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newCollection p:first-child{
+    width: 500px;
+    margin-top: 41px;
+}
+
+.newCollection p:nth-child(4){
+    width: 500px;
+    margin-top: 30px;
+}
+.newCollection2{
+    margin: auto;
+    margin-top: 30px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.newCollection3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+.weddingDressA{
+    margin: 0 auto;
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weddingDressA2{
+    margin: 0 auto;
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weddingDressBottom{
+    width: 281px;
+    height: 60px;
+    border: 1px solid #ffffffe7;
+    text-align: center;
+    padding-top: 18px;
+    margin: auto;
+    margin-top: 112px;
+    margin-bottom: 120px;
+    
+}
+.signUp{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.button{
+    width: 220px;
+    height: 50px;
+    background-color: none;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 15px;
+}
+button{
+    background: none;
+    border: none;
+    outline: inherit;
+    padding: 0;
+    color:rgba(255, 255, 255, 0.918);
+
+}
+.politic{
+    width: 560px;
+    height: 50px;
+}
+.politic p{
+    font-size: 12px;
+    margin-right: 20px;
+    text-align: right;
+}
+.politic a{
+    border-bottom: 1px solid #ffffff8a;
+}
+.signUpBlok{
+    width: 1180px;
+    height: 306px;
+    padding: 80px;
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+.signUpForm{
+    width: 1180px; 
+    height: 306px;
+    background-color: #242424;
+    margin: 0 auto;
+}
+.signApFlex{
+    margin-top: 32px;
+    margin-bottom: 35px;
+     display: flex;
+    justify-content: space-between;
+}
+.signApFlexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+input{
+    text-align: center;
+    width: 220px;
+    height: 50px;
+}
+input:nth-child(2){
+    width: 300px;
+}
+
+
+.news{
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.newsblok{
+    width: 380px;
+}
+.news h2{
+    margin-top: 18px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.news p{
+    font-size: 14px;
+    color:  #ffffff63;
+}
+.data{
+    margin-top: 28px;
+    font-size: 12px;
+}
+.dovita{
+    width: 100%;
+    height: 550px;
+    background-color: #181818;
+}
+.dovitaInner{
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-bottom: 77px;
+}
+.dovitaText{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.dovitaText h2{
+    width: 400px;
+    font-size: 32px;
+}
+.dovitaTextP{
+    width: 275px;
+}
+.dovitaTextP p:first-child{
+    font-size: 24px;
+}
+.dovitaTextP p:nth-child(2){
+    font-size: 12px;
+}
+.dovitaTextA{
+    width: 220px;
+    height: 50px;
+    border: 1px solid #ffffffe7;
+    text-align: center;
+    padding-top: 12px;
+}
+.dovitaimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    height: 390px;
+    background-color: #242424;
+}
+.footerInner{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.footerInnerBlok{
+    padding-left: 40px;
+    width: 290px;
+    height: 260px;
+    padding-top: 50px;
+    border-right: 1px solid #ffffff28;
+}
+.footerInnerBlok1{
+    width: 290px;
+    height: 260px;
+    padding-top: 50px;
+    border-right: 1px solid #ffffff28;
+}
+.footerInnerBlok4{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.footerInnerBlok4 p{
+    font-size: 14px;
+}
+.footerInner h3{
+    margin-bottom: 20px;
+}
+.footerInner a{
+    display: block;
+    color: #ffffff59;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.footerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.footerButton{
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ffffffe7;
+    text-align: center;
+    padding-top: 12px;
+}
+.socIcon{
+    display: flex;
+    width: 295px;
+    justify-content: space-between;
+    align-items: center;
+}
+.reive{
+    color: #ffffffbb;
+}
+.socIcon p{
+    color: #ffffff86;
+}
+
+
+.DovitaPremium{
+    margin-top: 40px;
+    margin-bottom: 45px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    
+}
+.DovitaPremium a{
+    font-size: 12px;
+    text-align: center;
+}
+.DovitaPremiumImg p{
+    text-align: center;
+}
+.DovitaPremium img{
+    height: 10px;
+    width: 6px;
+    opacity: 0.6;
+}
+.DovitaPremium a:first-child{
+   opacity: 0.6;
+}
+.DovitaPremium a:nth-child(3){
+    opacity: 0.6;
+ }
+ .DovitaPremiumImg{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 247px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffffff62;
+ }
+ .DovitaPremiumImgActive{
+    border:1px solid #ffffffa4;
+    padding: 5px;
+    padding-bottom: 0;
+ }
+ .hideFilter{
+    width: 1180px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff62;
+
+ }
+ .hideFilterLeft{
+    width: 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .hideFilterRight{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .hideFilterRight img:nth-child(2){
+    transform: rotate(90deg);
+    margin-right: 25px;
+ }
+ .filterInner{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+ }
+ .filterInnerRight{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+ }
+ .filterInnerImage{
+    position: relative;
+ }
+ .elipseHeart{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+
+ }
+ .weddingDress{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+ }
+ .weddingDress img{
+    width: 8px;
+    height: 14px;
+ }
+ .filterInnerRight h2{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 23px;
+ }
+ .filterInnerRight p{
+    width: 772px;
+    text-align: center;
+
+ }
+.signUpForm{
+    margin-bottom: 160px;
+}
+.DovitaPremiumHide{
+    width: 476px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 130px;
+}
+.DavitaPremiumA{
+    opacity: 0.6;
+}
+.filterInnerImgCenter{
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.filterInnerImgCenter p{
+    width: 772px;
+    text-align: center;
+    margin: 0 auto;
+
+ }
+ .filterInnerImgCenter h2{
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 23px;
+ }
+
+
+
+
