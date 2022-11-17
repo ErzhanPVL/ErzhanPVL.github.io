@@ -13,7 +13,7 @@
   <script>
 $(function () {
 	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 12 - 1, 9);
+	austDay = new Date(austDay.getFullYear(), 12 - 1, 9);
 	$('#defaultCountdown').countdown({until: austDay});
 
 });
