@@ -1,6 +1,6 @@
 
  document.addEventListener("DOMContentLoaded", () => {
-  alert("Hello World!");
+
 
  var winners1 = {
  "53002069":"сертификат «DNS»",
