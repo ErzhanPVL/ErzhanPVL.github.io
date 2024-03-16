@@ -1,5 +1,7 @@
  <script>
- 
+ document.addEventListener("DOMContentLoaded", () => {
+  alert("Hello World!");
+
  var winners1 = {
  "53002069":"сертификат «DNS»",
 "53002088":"сертификат «DNS»",
@@ -6236,4 +6238,7 @@ function checkPrize() {
     
     
 }
+
+
+  });
 </script>
