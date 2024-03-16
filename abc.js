@@ -1,4 +1,4 @@
- <script>
+
  document.addEventListener("DOMContentLoaded", () => {
   alert("Hello World!");
 
@@ -6241,4 +6241,4 @@ function checkPrize() {
 
 
   });
-</script>
+
