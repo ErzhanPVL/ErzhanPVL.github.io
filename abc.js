@@ -18663,12 +18663,12 @@ function checkPrize() {
     var popup = document.querySelector("#rec720449867 > div > div > div.t-popup__container.t-width.t-width_8.t-popup__container-animated > div > div");
 
 
-    if (winners.hasOwnProperty(enteredNumber)) {
+    if (winners.hasOwnProperty(enteredNumber) && enteredNumber!=="") {
 
         var prize = winners[enteredNumber];
         popup.innerText="Позравляем! Вы выиграли " + prize;
         //alert("Позравляем! Вы выиграли " + prize);
-    } else if(winners1.hasOwnProperty(enteredNumber)){
+    } else if(winners1.hasOwnProperty(enteredNumber) && enteredNumber!==""){
 
         var prize = winners1[enteredNumber];
         popup.innerText="Позравляем! Вы выиграли " + prize;
