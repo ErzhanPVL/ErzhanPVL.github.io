@@ -37237,7 +37237,7 @@ function checkPrize() {
     } else if(winners1.hasOwnProperty(enteredNumber) && enteredNumber!==""){
 
         var prize = winners1[enteredNumber];
-        popup.innerText="Позравляем! Вы выиграли " + prize;
+        popup.innerText="Поздравляем! Вы выиграли " + prize;
         //alert("Позравляем! Вы выиграли " + prize);
     }
     
